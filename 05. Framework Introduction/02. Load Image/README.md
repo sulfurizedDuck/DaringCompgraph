@@ -103,5 +103,6 @@ Dan coba jalankan project, maka di scene awal sudah akan muncul background kita.
 ![result][result.png]
 
 Untuk kodingan mana saja yang berubah dapat dilihat di folder `Modified File`. File yang tidak ada di folder tersebut berarti tidak berubah dari framework awal.
+
 [background.png]: https://i.ibb.co/2FWf15j/background.png
 [result.png]: https://i.ibb.co/74vTpbv/background.png
