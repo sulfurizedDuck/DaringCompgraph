@@ -37,30 +37,7 @@ void cPerson::Init()
 
 void cPerson::Update(float tpf /*= 0.0333*/)
 {
-	animControl->UpdateAnim(tpf);
-
-	if (keys[GLUT_KEY_RIGHT])
-	{
-		if (animControl->ActiveName() != "walk_forward")
-			animControl->SetActiveAnim("walk_forward");
-	}
-	else if (keys[GLUT_KEY_LEFT])
-	{
-		if (animControl->ActiveName() != "walk_backward")
-			animControl->SetActiveAnim("walk_backward");
-	}
-	else
-	{
-		if (animControl->ActiveName() != "idle")
-			animControl->SetActiveAnim("idle");
-	}
-
-	if (keys[GLUT_KEY_LEFT]) {
-		x -= 300 * tpf;
-	}
-	else if (keys[GLUT_KEY_RIGHT]) {
-		x += 300 * tpf;
-	}
+	
 }
 
 void cPerson::ReadKeyboard(unsigned char key, int x, int y, bool press)
