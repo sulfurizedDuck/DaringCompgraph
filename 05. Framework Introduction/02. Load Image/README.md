@@ -58,7 +58,7 @@ Kembali lagi ke file `cAssetManager.h`, mari kita menambahkan identifier untuk s
 #define NUM_TEX		 10
 //Image identifiers
 #define SPRITESHEET_PLAYERS	1
-#define SPRITE_COLORED_GRASS 2
+#define SPRITE_COLORED_GRASS	2
 ...
 ```
 Setelah itu, tambahkan juga satu object `cSprite` yang akan menampung data dari background setelah kita me-load texturenya di bawah vector player.
