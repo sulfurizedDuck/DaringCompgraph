@@ -1,6 +1,6 @@
 ### Setting OpenGL di Windows dan Visual Studio 2015
 
-Pada dasarnya Visual Studio 2015 tidak memiliki library OpenGL bawaan, sehingga kita harus menambahkan library OpenGL itu manual ke Visual Studio 2015. Jika PC Anda belum terinstall VS2015 dapat di download di [sini](vs2015-community-edition). Jika sudah terdownload maka silakan download juga library OpenGL di [sini](opengl-lib).
+Pada dasarnya Visual Studio 2015 tidak memiliki library OpenGL bawaan, sehingga kita harus menambahkan library OpenGL itu manual ke Visual Studio 2015. Jika PC Anda belum terinstall VS2015 dapat di download di [sini][vs2015-community-edition]. Jika sudah terdownload maka silakan download juga library OpenGL di [sini][opengl-lib].
 
 Setelah download librarynya maka extract dan kita akan menemukan tiga folder di dalam, yaitu `bin`, `include`, dan `lib`. Kita akan memindahkan ketiga folder ini ke library VS2015 yang terletak di `C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC`.
 
